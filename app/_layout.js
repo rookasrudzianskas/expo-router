@@ -1,4 +1,6 @@
 import {Stack} from 'expo-router';
+import React from "react";
+import {Text} from 'react-native';
 
 export default ({children}) => {
   return (
@@ -8,7 +10,10 @@ export default ({children}) => {
         backgroundColor: '#ffe030',
         borderBottomWidth: 1,
         borderBottomColor: '#c41212',
-      }
+      },
+      headerRight: () => (
+        <Text style={{color: '#1e2632', fontSize: 20, fontWeight: 'bold', marginRight: 10}}>:D</Text>
+      )
     }} >
       <Stack.Screen name="index" options={{
         title: 'Home'
