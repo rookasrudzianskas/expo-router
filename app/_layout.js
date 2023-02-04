@@ -1,11 +1,12 @@
-import {Stack, useRouter} from 'expo-router';
+import {Stack, useRouter, Tabs} from 'expo-router';
 import React from "react";
 import {Alert, Text} from 'react-native';
 
 export default ({children}) => {
   const router = useRouter();
   return (
-    <Stack screenOptions={{
+    <Stack
+      screenOptions={{
       headerTintColor: '#1e2632',
       headerStyle: {
         backgroundColor: '#ffe030',
@@ -26,6 +27,7 @@ export default ({children}) => {
           presentation: 'modal',
       }}
       />
+      <Stack.Screen name="home" options={{ headerShown: false}} />
     </Stack>
   );
 }
