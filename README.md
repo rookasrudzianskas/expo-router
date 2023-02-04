@@ -1,15 +1,28 @@
-# Expo Router Example
+# Expo Router SASS APP building example
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+App build with expo router, you can use it as a template for your app.
 
-## 🚀 How to use
+## How to use
 
-```sh
-npx create-react-native-app -t with-router
-```
+- Clone this repo
+- Run `npm install` or `yarn install`
+- Run `npm start` or `yarn start`
+- Open it in the [Expo app](https://expo.io) on your phone to view it.
+- Run `npm run web` or `yarn web` to run it in the browser.
+- Run `npm run build` or `yarn build` to build it for the web.
+- Run `npm run eject` or `yarn eject` to eject from expo.
+- Run `npm run android` or `yarn android` to run it on android.
+- Run `npm run ios` or `yarn ios` to run it on ios.
+- Run `npm run test` or `yarn test` to run tests.
+- Run `npm run lint` or `yarn lint` to run lint.
+- Run `npm run lint:fix` or `yarn lint:fix` to run lint and fix errors.
+- Run `npm run prettier` or `yarn prettier` to run prettier.
+- Run `npm run prettier:fix` or `yarn prettier:fix` to run prettier and fix errors.
+- Run `npm run storybook` or `yarn storybook` to run storybook.
+- Run `npm run storybook:build` or `yarn storybook:build` to build storybook.
 
-## 📝 Notes
+## How to add a new screen
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+- Create a new file in `app` with the name of the screen.
+
+<img src="img.png" alt="drawing" width="300"/>
