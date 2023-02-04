@@ -8,8 +8,12 @@ export default ({children}) => {
         backgroundColor: '#ffe030',
         borderBottomWidth: 1,
         borderBottomColor: '#c41212',
-
       }
-    }} />
+    }} >
+      <Stack.Screen name="index" options={{
+        title: 'Home'
+      }}
+    />
+    </Stack>
   );
 }

@@ -1,7 +1,7 @@
 //@ts-nocheck
 import React from 'react';
 import {Text, View, StyleSheet, Button} from 'react-native';
-import { useRouter, useSearchParams } from 'expo-router';
+import {Stack, useRouter, useSearchParams} from 'expo-router';
 
 const Username = () => {
   const router = useRouter();
@@ -9,6 +9,7 @@ const Username = () => {
   // console.log(`Hello ${name} @${username}!`);
   return (
     <View style={styles.container}>
+      <Stack.Screen options={{ title: `Profile - ${name}`, headerStyle: {backgroundColor: '#1E2632'}, headerTintColor: '#ffe030'}} />
       <Text style={{fontSize: "20"}}>
         {`Hello ${name} (@${username})!`}
       </Text>
