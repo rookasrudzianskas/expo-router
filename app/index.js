@@ -7,7 +7,7 @@ export default function Page() {
       <View style={styles.main}>
         <Text style={styles.title}>Hello World</Text>
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
-        <Link style={{fontWeight: '600', marginVertical: 10}} href="/profile?name=Rokas">Open Profile</Link>
+        <Link style={{fontWeight: '600', marginVertical: 10}} href="/profile?name=Rokas&surname=Rudzianskas">Open Profile</Link>
       </View>
     </View>
   );

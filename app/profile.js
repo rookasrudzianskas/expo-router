@@ -5,8 +5,8 @@ import { useRouter, useSearchParams } from 'expo-router';
 
 const Profile = () => {
   const router = useRouter();
-  const params = useSearchParams();
-  console.log(params.name);
+  const {name, surname} = useSearchParams();
+  console.log(`Hello ${name} ${surname}!`);
   return (
     <View style={styles.container}>
       <Text>
