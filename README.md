@@ -26,3 +26,6 @@ App build with expo router, you can use it as a template for your app.
 - Create a new file in `app` with the name of the screen.
 
 <img src="img.png" alt="drawing" width="300"/>
+
+
+-- Feel free to use it, and modify it as you want.

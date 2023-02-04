@@ -6,13 +6,13 @@ import {Link} from "expo-router";
 const Messages = () => {
   return (
     <View>
-      <Link href="/messageRoom/123">
+      <Link href="/home/messages/123">
         Messages >>>>>>>>>> With Rokas
       </Link>
-      <Link href="/messageRoom/123">
+      <Link href="/home/messages/123">
         Messages >>>>>>>>>> With Rokas
       </Link>
-      <Link href="/messageRoom/123">
+      <Link href="/home/messages/123">
         Messages >>>>>>>>>> With Rokas
       </Link>
     </View>

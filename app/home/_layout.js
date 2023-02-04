@@ -23,7 +23,8 @@ export default () => {
         return (
           <FontAwesome name="user" size={24} color={focused ? '#1e2632' : '#cbcbcb'} />
         )
-      }
+      },
+      headerShown: false
     }} />
   </Tabs>
 }

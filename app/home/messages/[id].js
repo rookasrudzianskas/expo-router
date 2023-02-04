@@ -3,7 +3,7 @@ import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import {useSearchParams} from "expo-router";
 
-const MessageRoom = () => {
+const Id = () => {
   const { id } = useSearchParams();
   return (
     <View>
@@ -14,4 +14,4 @@ const MessageRoom = () => {
   );
 };
 
-export default MessageRoom;
+export default Id;
