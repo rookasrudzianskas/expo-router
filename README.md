@@ -29,3 +29,6 @@ App build with expo router, you can use it as a template for your app.
 
 
 -- Feel free to use it, and modify it as you want.
+
+Deep Linking - npx uri-scheme open exp://192.168.0.113:19000/--/home/messages/123 --ios
+Deep Linking - npx uri-scheme open exp://192.168.0.113:19000/--/Your-URL --ios || or --android
