@@ -2,6 +2,17 @@ import { StyleSheet, Text, View } from "react-native";
 import { Link } from 'expo-router';
 
 export default function Page() {
+
+  const users = [
+    {
+      username: "Rokas",
+      name: "Rokas Rudzianskas",
+    },
+    {
+      username: "John",
+      name: "John Doe",
+    }
+  ]
   return (
     <View style={styles.container}>
       <View style={styles.main}>
@@ -15,6 +26,10 @@ export default function Page() {
             surname: 'Rudzianskas'
           }
         }}>Open Profile #2</Link>
+
+        {users.map((user, index) => (
+          <Link key={index} href={`/${user.username}?name=${user.name}`}>Open {user.name} profile</Link>
+        ))}
       </View>
     </View>
   );
