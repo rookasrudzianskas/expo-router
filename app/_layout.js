@@ -1,6 +1,6 @@
 import {Stack} from 'expo-router';
 import React from "react";
-import {Text} from 'react-native';
+import {Alert, Text} from 'react-native';
 
 export default ({children}) => {
   return (
@@ -12,7 +12,7 @@ export default ({children}) => {
         borderBottomColor: '#c41212',
       },
       headerRight: () => (
-        <Text style={{color: '#1e2632', fontSize: 20, fontWeight: 'bold', marginRight: 10}}>:D</Text>
+        <Text onPress={() => Alert.alert('More Info....')} style={{color: '#1e2632', fontSize: 20, fontWeight: 'bold', marginRight: 10}}>:D</Text>
       )
     }} >
       <Stack.Screen name="index" options={{
