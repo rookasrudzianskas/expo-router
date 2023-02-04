@@ -1,19 +1,20 @@
 //@ts-nocheck
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
+import {Link} from "expo-router";
 
 const Messages = () => {
   return (
     <View>
-      <Text>
+      <Link href="/messageRoom/123">
         Messages >>>>>>>>>> With Rokas
-      </Text>
-      <Text>
+      </Link>
+      <Link href="/messageRoom/123">
         Messages >>>>>>>>>> With Rokas
-      </Text>
-      <Text>
+      </Link>
+      <Link href="/messageRoom/123">
         Messages >>>>>>>>>> With Rokas
-      </Text>
+      </Link>
     </View>
   );
 };
