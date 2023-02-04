@@ -3,27 +3,27 @@ import React from 'react';
 import {Text, View, StyleSheet, Button} from 'react-native';
 import { useRouter, useSearchParams } from 'expo-router';
 
-const Profile = () => {
+const Username = () => {
   const router = useRouter();
-  const {name, surname} = useSearchParams();
-  console.log(`Hello ${name} ${surname}!`);
+  const {name, username} = useSearchParams();
+  // console.log(`Hello ${name} @${username}!`);
   return (
     <View style={styles.container}>
-      <Text>
-        byrookas 🚀
+      <Text style={{fontSize: "20"}}>
+        {`Hello ${name} (@${username})!`}
       </Text>
       <Button onPress={() => router.back()} title="Go Back" />
     </View>
   );
 };
 
-export default Profile;
+export default Username;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-    padding: 24,
+    padding: 50,
     justifyContent: "center",
   },
 
