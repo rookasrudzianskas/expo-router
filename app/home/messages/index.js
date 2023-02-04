@@ -6,7 +6,13 @@ const Messages = () => {
   return (
     <View>
       <Text>
-        Messages
+        Messages >>>>>>>>>> With Rokas
+      </Text>
+      <Text>
+        Messages >>>>>>>>>> With Rokas
+      </Text>
+      <Text>
+        Messages >>>>>>>>>> With Rokas
       </Text>
     </View>
   );
